@@ -1,0 +1,44 @@
+body {
+    background-image: url(lyonnette/lyonnette.png);
+}
+
+nav {
+    font-family: 'Goudy Bookletter 1911', serif;
+    height: 100%;
+
+}
+
+p {
+    font-family: 'Patrick Hand', cursive;
+}
+
+h1, h2 { 
+    font-family: 'Goudy Bookletter 1911', serif;
+    color: #F0CE50;
+}
+
+a{
+    color: #06859C;
+
+}
+
+article{
+    width: 65%;
+    margin:0 auto;
+    margin-top: 50px;
+    border: #41B213 3px solid;
+}
+
+a:hover{
+    color: #FF6144;
+}
+
+.navbar navbar-dark bg-dark {
+    background-color: red;
+}
+
+#ghostyboy{
+    
+    color: #7A3CBD;
+    margin:0 auto;
+}
