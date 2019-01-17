@@ -7,3 +7,13 @@ You should ask them if they're comfortable letting you share their portfolio wit
 *especially* if they aren't among your most technically strong students 
 to encourage other students who may be struggling with impostor syndrome.
 */
+
+
+$(".card-header").click(function(){
+    if($("#others").hasClass("collapse show")){
+        $("#others").addClass("collapse");
+    }
+    else if ($("#others").addClass("collapse")){
+        $("#others").addClass("collapse show");
+    }
+});

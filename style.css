@@ -1,53 +1,78 @@
+/* 
+Colors to Use
+5e5o3f -- Dark Brown
+A9927D -- Light Brown
+f2f4f3 -- White
+22333B -- blueish?
+0a0908 -- black
+*/
+
 body {
     background-image: url(knitting250px/knitting250px_@2X.png);
 }
 
-nav {
-    font-family: 'Goudy Bookletter 1911', serif;
-    height: 100%;
-
+h1 {
+    text-align: center;
+    color: #5E503F;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid rgb(34,51,59, .4);
+    margin: 1em 0;
+    padding: 0; 
 }
 
 p {
-    font-family: 'Patrick Hand', cursive;
+    text-align: center;
 }
 
-h1, h2 { 
-    font-family: 'Goudy Bookletter 1911', serif;
-    color: #F0CE50;
+img {
+    height: auto;
+    width: 150px;
+    transition: transform 1s ease-in-out;
 }
 
-.projects {
+img:hover {
+    transform: scale(1.1);
+}
+
+#main {
+    position: absolute;
+    margin: 0 auto;
+    top: 35%;
+    background-color: rgb(242,244,243, .7);
+    width: 100%;
+    z-index: -1;
+}
+
+#about, #projects, #contact {
     width: 75%;
     margin: 0 auto;
-    background-color: blanchedalmond;
+    padding: 35px;
 }
 
-.hexagon {
-    width: 0;
-    border-bottom: 30px solid #6C6;
-    border-left: 52px solid transparent;
-    border-right: 52px solid transparent;
+#about {
+    position: relative;
+    margin-top: 95px;
+}
 
-    width: 104px;
-    height: 60px;
-    background-color: #6C6;
-
-    width: 0;
-    border-top: 30px solid #6C6;
-    border-left: 52px solid transparent;
-    border-right: 52px solid transparent;
+.dot {
+    height: 200px;
+    width: 200px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 10%
   }
-  
-  
-  /*cover up extra shadows*/
-  .hexagon span {
-    display: block;
-    position: absolute;
-    top:0px;
-    left: 0;
-    width:150px;
-    height:86.6025px;
-    z-index: 2;
-    background: inherit;
+
+  .accordian {
+      margin: 0 auto;
+  }
+
+  #me {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
   }
