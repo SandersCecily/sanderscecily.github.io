@@ -87,3 +87,7 @@ img:hover {
   #linktoproj {
       margin: 0 auto;
   }
+
+  .left, .center, .right {
+    margin: 0 auto;
+  }
