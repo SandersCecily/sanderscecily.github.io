@@ -33,6 +33,7 @@ hr {
 
 p {
     text-align: center;
+    letter-spacing: .15em;
 }
 
 img {
@@ -59,7 +60,7 @@ img:hover {
 #about, #projects, #contact {
     width: 80%;
     margin: 0 auto;
-    padding: 35px;
+    padding: 25px;
 }
 
 #about {
