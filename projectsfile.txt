@@ -57,3 +57,7 @@ https://pastrypicnicker.herokuapp.com/
 Project Two: Pocket Party
 https://github.com/SandersCecily/Project_Two
 https://pocketparty.herokuapp.com/
+
+News Skimmer
+https://github.com/SandersCecily/NewsSkimmer
+https://fathomless-basin-95109.herokuapp.com/
