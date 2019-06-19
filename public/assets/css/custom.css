@@ -1,0 +1,114 @@
+body {
+  height: 100%;
+  position: relative;
+}
+header{
+  padding-top: 3%;
+}
+.two-thirds{
+  padding-left: 5%;
+}
+.two-thirds h4{
+  margin: 35px 0 0 0 auto;
+}
+
+nav{
+  position: relative;
+  left: 15%;
+}
+
+hr {
+  margin: 5px 0px 15px;
+}
+
+button {
+  margin-left: 4%;
+}
+
+button:hover {
+  box-shadow: 5px 10px 2px rgba(0,0,0,0.24), 5px 10px 7px rgba(0,0,0,0.19);
+}
+
+#headshot {
+  width: 20em;
+  height: auto;
+}
+
+.container {
+  min-height: 100vh; /* will cover the 100% of viewport */
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 15em; /* height of your footer */
+}
+
+.card {
+  margin: 30px;
+  padding: 20px;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2) ;
+  float: left;
+  width: 20em;
+  height: 15em;
+}
+
+.docs-header {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  letter-spacing: .2rem;
+  font-weight: 600;
+}
+
+#about {
+  margin-top: 45px;
+}
+
+#about img {
+  padding: 5px;
+}
+
+#about div {
+  margin: 7px;
+}
+
+#hidden{
+  display: none;
+}
+
+footer{
+  align-content: center;
+  position: absolute; 
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+}
+
+footer p {
+  text-align: center;
+}
+
+footer img {
+  margin: 0 auto;
+  padding-left: 2%;
+  float: left;
+  position: relative;
+  left: 30%;
+}
+
+
+/* Animation for blinking in Header */
+
+@keyframes blink {
+    50% {
+      opacity: 0.0;
+    }
+  }
+  @-webkit-keyframes blink {
+    50% {
+      opacity: 0.0;
+    }
+  }
+  .blink {
+    animation: blink 1s step-start 0s infinite;
+    -webkit-animation: blink 1s step-start 0s infinite;
+  }

@@ -1,0 +1,75 @@
+[
+    {
+        "title" : "JavaScript Assignment",
+        "description": "This assignment I used JavaScript technology to build a word guessing game.",
+        "gitlink": "https://github.com/SandersCecily/WordGuessGame",
+        "deploylink": "https://sanderscecily.github.io/WordGuessGame/"
+    },
+    {
+        "title" : "jQuery Assignment",
+        "description": "I created a pearl collection game, the point is to reach the on screen goal. It was made with jQuery.",
+        "gitlink": "https://github.com/SandersCecily/unit4game",
+        "deploylink": "https://sanderscecily.github.io/unit4game/"
+    },
+    {
+        "title" : "JavaScript Assignment 2",
+        "description": "This webpage is a trivia type game to answer the questions in a specific time span.",
+        "gitlink": "https://github.com/SandersCecily/TriviaGame",
+        "deploylink": "https://sanderscecily.github.io/TriviaGame/"
+    },
+    {
+        "title" : "GifTastic",
+        "description": "This webpage shows off the GIPHY API and search for gifs.",
+        "gitlink": "https://github.com/SandersCecily/GIPHYAPI",
+        "deploylink": "https://sanderscecily.github.io/GIPHYAPI/"
+    },
+    {
+        "title" : "Train Scheduler",
+        "description": "This assignment is a simulation train flipboard with moment.js.",
+        "gitlink": "https://github.com/SandersCecily/Flipboard",
+        "deploylink": "https://sanderscecily.github.io/Flipboard/"
+    },
+    {
+        "title" : "Project One: Septa Key Playlist (Collaborator)",
+        "description": "Septa Key playlist was made to give you a playlist for the length of your Septa ride.",
+        "gitlink": "https://github.com/monetthigpen/projectOne",
+        "deploylink": "https://monetthigpen.github.io/projectOne/index.html"
+    },
+    {
+        "title" : "LIRI Bot",
+        "description": "This is a command line program to find out information on entertainment.",
+        "gitlink": "https://github.com/SandersCecily/liri-node-app",
+        "deploylink": null
+    },
+    {
+        "title" : "Node.js & MySQL",
+        "description": "Another command line project that resembles a small amazon.",
+        "gitlink": "https://github.com/SandersCecily/bamazon",
+        "deploylink": null
+    },
+    {
+        "title" : "Node and Express Server - Friend Finder",
+        "description": "This application helps to find a dog breed for your personality.",
+        "gitlink": "https://github.com/SandersCecily/FriendFinder",
+        "deploylink": "https://blooming-shore-75254.herokuapp.com/"
+    },
+    {
+        "title" : "Node Express Handlebars - Pastry Picker",
+        "description": "This is a webpage using handlebars to the pastry board.",
+        "gitlink": "https://github.com/SandersCecily/pastry",
+        "deploylink": "https://pastrypicnicker.herokuapp.com/"
+    },
+    {
+        "title" : "Project Two: Pocket Party (Collaborator)",
+        "description": "Pocket Party was a website made to make planning a party easier.",
+        "gitlink": "https://github.com/SandersCecily/Project_Two",
+        "deploylink": "https://pocketparty.herokuapp.com/"
+    },
+    {
+        "title" : "News Skimmer",
+        "description": "This application skims current news stories and gives them back to the user.",
+        "gitlink": "https://github.com/SandersCecily/NewsSkimmer",
+        "deploylink": "https://fathomless-basin-95109.herokuapp.com/"
+    }
+
+]
