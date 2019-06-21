@@ -11,17 +11,17 @@ var path = require("path");
 module.exports = function(app) {
   // index route loads index
   app.get("/", function(req, res) {
-    res.sendFile(path.join(__dirname, "../public/index.html"));
+    res.sendFile(path.join(__dirname, "../index.html"));
   });
 
   // about loads about
   app.get("/about", function(req, res) {
-    res.sendFile(path.join(__dirname, "../public/about.html"));
+    res.sendFile(path.join(__dirname, "../about.html"));
   });
 
   // projects loads projects
   app.get("/projects", function(req, res) {
-    res.sendFile(path.join(__dirname, "../public/projects.html"));
+    res.sendFile(path.join(__dirname, "../projects.html"));
   });
 
 };
