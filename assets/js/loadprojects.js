@@ -2,7 +2,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     function main() {
         $.ajax({
-            url: "/sanderscecily.github.io/assets/projects.json",
+            url: "sanderscecily.github.io/projects.json",
             dataType: "json",
             method: "GET",
             success: function (data) {
