@@ -26,7 +26,7 @@ module.exports = function(app) {
 
   // loads the json data 
   app.get("/json", function(req, res) {
-    res.sendFile(path.join(__dirname, "../assets/projects.json"));
+    res.json(path.join(__dirname, "../assets/projects.json"));
   });
 
 };

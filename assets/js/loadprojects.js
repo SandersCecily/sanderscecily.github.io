@@ -48,6 +48,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     document.getElementById("projects").appendChild(div);
                 }
+            },
+            error: function(){
+                alert("json not found");
             }
         });
     };
