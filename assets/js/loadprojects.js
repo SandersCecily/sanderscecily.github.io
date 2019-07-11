@@ -1,10 +1,12 @@
 //On Doc Load
 document.addEventListener("DOMContentLoaded", function () {
     function main() {
+        console.log('document.location', document.location.href);
         $.ajax({
-            url: "sanderscecily.github.io/json",
+            url: "../projects.json",
             dataType: "json",
             method: "GET",
+            async: false,
             success: function (data) {
                 for (var i = 0; i < data.length; i++) {
                     //create div

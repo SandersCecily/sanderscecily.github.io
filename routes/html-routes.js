@@ -24,6 +24,7 @@ module.exports = function(app) {
     res.sendFile(path.join(__dirname, "../projects.html"));
   });
 
+  // loads the json data 
   app.get("/json", function(req, res) {
     res.sendFile(path.join(__dirname, "../assets/projects.json"));
   });
