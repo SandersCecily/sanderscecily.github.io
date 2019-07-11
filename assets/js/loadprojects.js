@@ -3,10 +3,9 @@ document.addEventListener("DOMContentLoaded", function () {
     function main() {
         console.log('document.location', document.location.href);
         $.ajax({
-            url: "../projects.json",
+            url: "https://sanderscecily.github.io/json",
             dataType: "json",
             method: "GET",
-            async: false,
             success: function (data) {
                 for (var i = 0; i < data.length; i++) {
                     //create div

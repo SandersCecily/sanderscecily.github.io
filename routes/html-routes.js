@@ -5,6 +5,7 @@
 // Dependencies
 // =============================================================
 var path = require("path");
+const data = require("../assets/projects.json");
 
 // Routes
 // =============================================================
@@ -26,7 +27,7 @@ module.exports = function(app) {
 
   // loads the json data 
   app.get("/json", function(req, res) {
-    res.json(path.join(__dirname, "../assets/projects.json"));
+    res.json(data);
   });
 
 };
