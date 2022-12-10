@@ -4,7 +4,7 @@
   "description": "A new version of my portfolio, started from scratch",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "fs": "0.0.1-security",
     "mo-js": "^0.288.2",
     "path": "^0.12.7"
